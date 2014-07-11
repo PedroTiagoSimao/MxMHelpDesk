@@ -1,0 +1,719 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{268BAC1B-8684-4B78-8822-7BD90713E953}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MxMultimedia_HelpDesk</RootNamespace>
+    <AssemblyName>MxMultimedia HelpDesk</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\Setup\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <ProductName>HelpDesk</ProductName>
+    <PublisherName>MxMultimedia</PublisherName>
+    <SuiteName>HelpDesk</SuiteName>
+    <MinimumRequiredVersion>1.2.3.28</MinimumRequiredVersion>
+    <WebPage>publish.htm</WebPage>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>34</ApplicationRevision>
+    <ApplicationVersion>1.2.3.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>false</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>8FDF396B701774D4BC364FADBEB51E6B9DE864E2</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>MxMultimedia HelpDesk_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>X.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CarlosAg.ExcelXmlWriter">
+      <HintPath>..\..\1. References\CarlosAg.ExcelXmlWriter\CarlosAg.ExcelXmlWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.5.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\MySQL\MySQL Connector Net 6.5.4\Assemblies\v4.0\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Web, Version=6.6.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.6.4\Assemblies\v4.0\MySql.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assistencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistencia.Designer.cs">
+      <DependentUpon>Assistencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes\Avisos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes\Avisos.Designer.cs">
+      <DependentUpon>Avisos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes\DefinirSaida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes\DefinirSaida.Designer.cs">
+      <DependentUpon>DefinirSaida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes\FichaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes\FichaCliente.Designer.cs">
+      <DependentUpon>FichaCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes\ListagemClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes\ListagemClientes.Designer.cs">
+      <DependentUpon>ListagemClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExcelGenerator.cs" />
+    <Compile Include="Income.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Income.Designer.cs">
+      <DependentUpon>Income.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IncomeAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IncomeAdd.Designer.cs">
+      <DependentUpon>IncomeAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListagemAssistencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListagemAssistencias.Designer.cs">
+      <DependentUpon>ListagemAssistencias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mxmultim_Assistencias.cs">
+      <DependentUpon>mxmultim_Assistencias.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="mxmultim_Assistencias.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mxmultim_Assistencias.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="mxmultim_Clientes.cs">
+      <DependentUpon>mxmultim_Clientes.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="mxmultim_Clientes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mxmultim_Clientes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="mxmultim_Income.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mxmultim_Income.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="mxmultim_MapaAssist.cs">
+      <DependentUpon>mxmultim_MapaAssist.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="mxmultim_MapaAssist.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mxmultim_MapaAssist.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="mxmultim_PagBalcao.cs">
+      <DependentUpon>mxmultim_PagBalcao.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="mxmultim_PagBalcao.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mxmultim_PagBalcao.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="mxmultim_TotalAssist.cs">
+      <DependentUpon>mxmultim_TotalAssist.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="mxmultim_TotalAssist.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mxmultim_TotalAssist.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PagBalcao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PagBalcao.Designer.cs">
+      <DependentUpon>PagBalcao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Preview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Preview.Designer.cs">
+      <DependentUpon>Preview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="P_Clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="P_Clientes.Designer.cs">
+      <DependentUpon>P_Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="P_CLientesFiltro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="P_CLientesFiltro.Designer.cs">
+      <DependentUpon>P_CLientesFiltro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="P_MapaAssist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="P_MapaAssist.Designer.cs">
+      <DependentUpon>P_MapaAssist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="P_PagBalcao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="P_PagBalcao.Designer.cs">
+      <DependentUpon>P_PagBalcao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="P_TotalServicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="P_TotalServicos.Designer.cs">
+      <DependentUpon>P_TotalServicos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaldoMensal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaldoMensal.Designer.cs">
+      <DependentUpon>SaldoMensal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaldoMensalAlterar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaldoMensalAlterar.Designer.cs">
+      <DependentUpon>SaldoMensalAlterar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Server.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Server.Designer.cs">
+      <DependentUpon>Server.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Reports\Clientes.rdlc" />
+    <EmbeddedResource Include="Clientes\Avisos.resx">
+      <DependentUpon>Avisos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Income.resx">
+      <DependentUpon>Income.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IncomeAdd.resx">
+      <DependentUpon>IncomeAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PagBalcao.resx">
+      <DependentUpon>PagBalcao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preview.resx">
+      <DependentUpon>Preview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="P_Clientes.resx">
+      <DependentUpon>P_Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="P_CLientesFiltro.resx">
+      <DependentUpon>P_CLientesFiltro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="P_MapaAssist.resx">
+      <DependentUpon>P_MapaAssist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="P_PagBalcao.resx">
+      <DependentUpon>P_PagBalcao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="P_TotalServicos.resx">
+      <DependentUpon>P_TotalServicos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\AssistA4.rdlc" />
+    <EmbeddedResource Include="Reports\TotalServicosDate.rdlc" />
+    <EmbeddedResource Include="Reports\MapaAssist.rdlc" />
+    <EmbeddedResource Include="Reports\PagBalcao.rdlc" />
+    <EmbeddedResource Include="Reports\TotalServicos.rdlc" />
+    <EmbeddedResource Include="SaldoMensal.resx">
+      <DependentUpon>SaldoMensal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaldoMensalAlterar.resx">
+      <DependentUpon>SaldoMensalAlterar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Server.resx">
+      <DependentUpon>Server.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="mxmultim_Assistencias.xsc">
+      <DependentUpon>mxmultim_Assistencias.xsd</DependentUpon>
+    </None>
+    <None Include="mxmultim_Assistencias.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>mxmultim_Assistencias.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="mxmultim_Assistencias.xss">
+      <DependentUpon>mxmultim_Assistencias.xsd</DependentUpon>
+    </None>
+    <None Include="mxmultim_Clientes.xsc">
+      <DependentUpon>mxmultim_Clientes.xsd</DependentUpon>
+    </None>
+    <None Include="mxmultim_Clientes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>mxmultim_Clientes.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="mxmultim_Clientes.xss">
+      <DependentUpon>mxmultim_Clientes.xsd</DependentUpon>
+    </None>
+    <None Include="mxmultim_Income.xsc">
+      <DependentUpon>mxmultim_Income.xsd</DependentUpon>
+    </None>
+    <None Include="mxmultim_Income.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>mxmultim_Income.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="mxmultim_Income.xss">
+      <DependentUpon>mxmultim_Income.xsd</DependentUpon>
+    </None>
+    <None Include="mxmultim_MapaAssist.xsc">
+      <DependentUpon>mxmultim_MapaAssist.xsd</DependentUpon>
+    </None>
+    <None Include="mxmultim_MapaAssist.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>mxmultim_MapaAssist.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="mxmultim_MapaAssist.xss">
+      <DependentUpon>mxmultim_MapaAssist.xsd</DependentUpon>
+    </None>
+    <None Include="mxmultim_PagBalcao.xsc">
+      <DependentUpon>mxmultim_PagBalcao.xsd</DependentUpon>
+    </None>
+    <None Include="mxmultim_PagBalcao.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>mxmultim_PagBalcao.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="mxmultim_PagBalcao.xss">
+      <DependentUpon>mxmultim_PagBalcao.xsd</DependentUpon>
+    </None>
+    <None Include="mxmultim_TotalAssist.xsc">
+      <DependentUpon>mxmultim_TotalAssist.xsd</DependentUpon>
+    </None>
+    <None Include="mxmultim_TotalAssist.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>mxmultim_TotalAssist.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="mxmultim_TotalAssist.xss">
+      <DependentUpon>mxmultim_TotalAssist.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\app.manifest" />
+    <None Include="Resources\search.png" />
+    <None Include="Resources\logo_final.jpg" />
+    <None Include="Resources\logo_final1.png" />
+    <None Include="Resources\floppy_driver_5.png" />
+    <None Include="Resources\refresh.png" />
+    <None Include="Resources\excel_ico.gif" />
+    <Content Include="mysqldump.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="server.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="X.ico" />
+    <EmbeddedResource Include="Assistencia.resx">
+      <DependentUpon>Assistencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes\DefinirSaida.resx">
+      <DependentUpon>DefinirSaida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes\FichaCliente.resx">
+      <DependentUpon>FichaCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes\ListagemClientes.resx">
+      <DependentUpon>ListagemClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListagemAssistencias.resx">
+      <DependentUpon>ListagemAssistencias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MxMultimedia HelpDesk_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skyp1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mxm.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_final.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\configuration_settings.png" />
+    <None Include="Resources\rich_text_format.png" />
+    <None Include="Resources\desktop.png" />
+    <Content Include="Resources\write_document.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ClientDoc">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommLayer">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommonControls">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommonObjectModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.Controllers">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CubeDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.DataDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.DataSetConversion">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ObjectFactory">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.Prompting">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ReportDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.XmlSerialize">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="FlashControlV71">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="log4net">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.Common">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.DataVisualization">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.ProcessingObjectModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.WinForms">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SqlServer.Types">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="MySql.Data">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="ShockwaveFlashObjects">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="stdole">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,113 @@
+E:\2. Proj 2012\MxMultimedia HelpDesk\MxMultimedia HelpDesk\bin\Debug\MxMultimedia HelpDesk.exe
+E:\2. Proj 2012\MxMultimedia HelpDesk\MxMultimedia HelpDesk\bin\Debug\MxMultimedia HelpDesk.pdb
+E:\2. Proj 2012\MxMultimedia HelpDesk\MxMultimedia HelpDesk\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\2. Proj 2012\MxMultimedia HelpDesk\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.Main.resources
+E:\2. Proj 2012\MxMultimedia HelpDesk\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.Properties.Resources.resources
+E:\2. Proj 2012\MxMultimedia HelpDesk\MxMultimedia HelpDesk\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\2. Proj 2012\MxMultimedia HelpDesk\MxMultimedia HelpDesk\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\2. Proj 2012\MxMultimedia HelpDesk\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia HelpDesk.exe
+E:\2. Proj 2012\MxMultimedia HelpDesk\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia HelpDesk.pdb
+E:\2. Proj 2012\MxMultimedia HelpDesk\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.Assistencia.resources
+E:\2. Proj 2012\MxMultimedia HelpDesk\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.Login.resources
+E:\2. Proj 2012\MxMultimedia HelpDesk\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.ListagemAssistencias.resources
+E:\2. Proj 2012\MxMultimedia HelpDesk\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.Clientes.ListagemClientes.resources
+E:\2. Proj 2012\MxMultimedia HelpDesk\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.Clientes.FichaCliente.resources
+E:\2. Proj 2012\MxMultimedia HelpDesk\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.Clientes.DefinirSaida.resources
+E:\2. Proj 2012\MxMultimedia HelpDesk\MxMultimedia HelpDesk\bin\Debug\MxMultimedia HelpDesk.exe.config
+E:\2. Proj 2012\MxMultimedia HelpDesk\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.PrintPreview.resources
+E:\2. Proj 2012\MxMultimedia HelpDesk\MxMultimedia HelpDesk\bin\Debug\MxMultimedia HelpDesk.exe.manifest
+E:\2. Proj 2012\MxMultimedia HelpDesk\MxMultimedia HelpDesk\bin\Debug\MxMultimedia HelpDesk.application
+E:\2. Proj 2012\MxMultimedia HelpDesk\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia HelpDesk.exe.manifest
+E:\2. Proj 2012\MxMultimedia HelpDesk\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia HelpDesk.application
+E:\2. Proj 2012\MxMultimedia HelpDesk\MxMultimedia HelpDesk\bin\Debug\Reports\assistencia.rpt
+E:\2. Proj 2012\MxMultimedia HelpDesk\MxMultimedia HelpDesk\bin\Debug\Reports\assistencia.cs
+E:\2. Proj 2012\MxMultimedia HelpDesk\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.Server.resources
+E:\2. Proj 2012\MxMultimedia HelpDesk\MxMultimedia HelpDesk\bin\Debug\server.txt
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\bin\Debug\server.txt
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\bin\Debug\MxMultimedia HelpDesk.exe.config
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\bin\Debug\MxMultimedia HelpDesk.exe.manifest
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\bin\Debug\MxMultimedia HelpDesk.application
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\bin\Debug\MxMultimedia HelpDesk.exe
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\bin\Debug\MxMultimedia HelpDesk.pdb
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.Clientes.Avisos.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.PagBalcao.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.Preview.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.P_MapaAssist.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.P_TotalServicos.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.Server.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.Assistencia.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.Clientes.DefinirSaida.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.Clientes.FichaCliente.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.Clientes.ListagemClientes.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.ListagemAssistencias.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.Login.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.Main.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.Properties.Resources.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\obj\x86\Debug\RdlCompile.cache
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\obj\x86\Debug\RdlCompile.compiled
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia HelpDesk.exe.manifest
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia HelpDesk.application
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia HelpDesk.exe
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia HelpDesk.pdb
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.P_PagBalcao.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.SaldoMensal.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.SaldoMensalAlterar.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.Income.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.IncomeAdd.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.P_Clientes.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.P_CLientesFiltro.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia\MxMultimedia HelpDesk\bin\Debug\CarlosAg.ExcelXmlWriter.dll
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\bin\Debug\MxMultimedia HelpDesk.exe.config
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia HelpDesk.exe
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia HelpDesk.pdb
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia HelpDesk.csprojResolveAssemblyReference.cache
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.Clientes.Avisos.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.Income.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.IncomeAdd.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.PagBalcao.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.Preview.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.P_Clientes.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.P_CLientesFiltro.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.P_MapaAssist.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.P_PagBalcao.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.P_TotalServicos.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.SaldoMensal.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.SaldoMensalAlterar.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.Server.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.Assistencia.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.Clientes.DefinirSaida.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.Clientes.FichaCliente.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.Clientes.ListagemClientes.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.ListagemAssistencias.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.Login.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.Main.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia_HelpDesk.Properties.Resources.resources
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia HelpDesk.csproj.GenerateResource.Cache
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\obj\x86\Debug\RdlCompile.cache
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\obj\x86\Debug\RdlCompile.compiled
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\bin\Debug\server.txt
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\bin\Debug\MxMultimedia HelpDesk.exe.manifest
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\bin\Debug\MxMultimedia HelpDesk.application
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\bin\Debug\MxMultimedia HelpDesk.exe
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\bin\Debug\MxMultimedia HelpDesk.pdb
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\bin\Debug\CarlosAg.ExcelXmlWriter.dll
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia HelpDesk.exe.manifest
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia HelpDesk.application
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\bin\Debug\MySql.Data.dll
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\bin\Debug\MySql.Web.dll
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\bin\Debug\mysqldump.exe
+C:\Users\Pedro\Google Drive\Projectos\MxMultimedia 2013\MxMultimedia HelpDesk\obj\x86\Debug\MxMultimedia HelpDesk.TrustInfo.xml

@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="mxmultim_Assistencias" targetNamespace="http://tempuri.org/mxmultim_Assistencias.xsd" xmlns:mstns="http://tempuri.org/mxmultim_Assistencias.xsd" xmlns="http://tempuri.org/mxmultim_Assistencias.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="HelpDeskConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="HelpDeskConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.MxMultimedia_HelpDesk.Properties.Settings.GlobalReference.Default.HelpDeskConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="assistencias_viewTableAdapter" GeneratorDataComponentClassName="assistencias_viewTableAdapter" Name="assistencias_view" UserDataComponentName="assistencias_viewTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="HelpDeskConnectionString (Settings)" DbObjectName="mxmultim_HelpDesk.assistencias_view" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT `datainicio`, `registo`, `descricaoassist`, `dataassist`, `descricaolinha`, `quant`, `custo`, `numcliente`, `nomecliente`, `telefone`, `telemovel`, `email`, `numequip`, `tipoequip`, `descricaoequip`, `serie`, `Localizacao`, `Telefoneloja`, `tiporeparacao`, acessorios FROM `mxmultim_HelpDesk`.`assistencias_view`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="datainicio" DataSetColumn="datainicio" />
+              <Mapping SourceColumn="registo" DataSetColumn="registo" />
+              <Mapping SourceColumn="descricaoassist" DataSetColumn="descricaoassist" />
+              <Mapping SourceColumn="dataassist" DataSetColumn="dataassist" />
+              <Mapping SourceColumn="descricaolinha" DataSetColumn="descricaolinha" />
+              <Mapping SourceColumn="quant" DataSetColumn="quant" />
+              <Mapping SourceColumn="custo" DataSetColumn="custo" />
+              <Mapping SourceColumn="numcliente" DataSetColumn="numcliente" />
+              <Mapping SourceColumn="nomecliente" DataSetColumn="nomecliente" />
+              <Mapping SourceColumn="telefone" DataSetColumn="telefone" />
+              <Mapping SourceColumn="telemovel" DataSetColumn="telemovel" />
+              <Mapping SourceColumn="email" DataSetColumn="email" />
+              <Mapping SourceColumn="numequip" DataSetColumn="numequip" />
+              <Mapping SourceColumn="tipoequip" DataSetColumn="tipoequip" />
+              <Mapping SourceColumn="descricaoequip" DataSetColumn="descricaoequip" />
+              <Mapping SourceColumn="serie" DataSetColumn="serie" />
+              <Mapping SourceColumn="Localizacao" DataSetColumn="Localizacao" />
+              <Mapping SourceColumn="Telefoneloja" DataSetColumn="Telefoneloja" />
+              <Mapping SourceColumn="tiporeparacao" DataSetColumn="tiporeparacao" />
+              <Mapping SourceColumn="acessorios" DataSetColumn="acessorios" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="mxmultim_Assistencias" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msdata:EnforceConstraints="False" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="mxmultim_Assistencias" msprop:Generator_UserDSName="mxmultim_Assistencias">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="assistencias_view" msprop:Generator_TableClassName="assistencias_viewDataTable" msprop:Generator_TableVarName="tableassistencias_view" msprop:Generator_RowChangedName="assistencias_viewRowChanged" msprop:Generator_TablePropName="assistencias_view" msprop:Generator_RowDeletingName="assistencias_viewRowDeleting" msprop:Generator_RowChangingName="assistencias_viewRowChanging" msprop:Generator_RowEvHandlerName="assistencias_viewRowChangeEventHandler" msprop:Generator_RowDeletedName="assistencias_viewRowDeleted" msprop:Generator_RowClassName="assistencias_viewRow" msprop:Generator_UserTableName="assistencias_view" msprop:Generator_RowEvArgName="assistencias_viewRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="datainicio" msprop:Generator_ColumnVarNameInTable="columndatainicio" msprop:Generator_ColumnPropNameInRow="datainicio" msprop:Generator_ColumnPropNameInTable="datainicioColumn" msprop:Generator_UserColumnName="datainicio" type="xs:dateTime" />
+              <xs:element name="registo" msprop:Generator_ColumnVarNameInTable="columnregisto" msprop:Generator_ColumnPropNameInRow="registo" msprop:Generator_ColumnPropNameInTable="registoColumn" msprop:Generator_UserColumnName="registo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="descricaoassist" msprop:Generator_ColumnVarNameInTable="columndescricaoassist" msprop:Generator_ColumnPropNameInRow="descricaoassist" msprop:Generator_ColumnPropNameInTable="descricaoassistColumn" msprop:Generator_UserColumnName="descricaoassist">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="21845" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="dataassist" msprop:Generator_ColumnVarNameInTable="columndataassist" msprop:Generator_ColumnPropNameInRow="dataassist" msprop:Generator_ColumnPropNameInTable="dataassistColumn" msprop:Generator_UserColumnName="dataassist" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="descricaolinha" msprop:Generator_ColumnVarNameInTable="columndescricaolinha" msprop:Generator_ColumnPropNameInRow="descricaolinha" msprop:Generator_ColumnPropNameInTable="descricaolinhaColumn" msprop:Generator_UserColumnName="descricaolinha" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="quant" msprop:Generator_ColumnVarNameInTable="columnquant" msprop:Generator_ColumnPropNameInRow="quant" msprop:Generator_ColumnPropNameInTable="quantColumn" msprop:Generator_UserColumnName="quant" type="xs:int" minOccurs="0" />
+              <xs:element name="custo" msprop:Generator_ColumnVarNameInTable="columncusto" msprop:Generator_ColumnPropNameInRow="custo" msprop:Generator_ColumnPropNameInTable="custoColumn" msprop:Generator_UserColumnName="custo" type="xs:decimal" minOccurs="0" />
+              <xs:element name="numcliente" msprop:Generator_ColumnVarNameInTable="columnnumcliente" msprop:Generator_ColumnPropNameInRow="numcliente" msprop:Generator_ColumnPropNameInTable="numclienteColumn" msprop:Generator_UserColumnName="numcliente" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nomecliente" msprop:Generator_ColumnVarNameInTable="columnnomecliente" msprop:Generator_ColumnPropNameInRow="nomecliente" msprop:Generator_ColumnPropNameInTable="nomeclienteColumn" msprop:Generator_UserColumnName="nomecliente" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="telefone" msprop:Generator_ColumnVarNameInTable="columntelefone" msprop:Generator_ColumnPropNameInRow="telefone" msprop:Generator_ColumnPropNameInTable="telefoneColumn" msprop:Generator_UserColumnName="telefone" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="telemovel" msprop:Generator_ColumnVarNameInTable="columntelemovel" msprop:Generator_ColumnPropNameInRow="telemovel" msprop:Generator_ColumnPropNameInTable="telemovelColumn" msprop:Generator_UserColumnName="telemovel" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="email" msprop:Generator_ColumnVarNameInTable="columnemail" msprop:Generator_ColumnPropNameInRow="email" msprop:Generator_ColumnPropNameInTable="emailColumn" msprop:Generator_UserColumnName="email" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="numequip" msprop:Generator_ColumnVarNameInTable="columnnumequip" msprop:Generator_ColumnPropNameInRow="numequip" msprop:Generator_ColumnPropNameInTable="numequipColumn" msprop:Generator_UserColumnName="numequip" type="xs:int" minOccurs="0" />
+              <xs:element name="tipoequip" msprop:Generator_ColumnVarNameInTable="columntipoequip" msprop:Generator_ColumnPropNameInRow="tipoequip" msprop:Generator_ColumnPropNameInTable="tipoequipColumn" msprop:Generator_UserColumnName="tipoequip" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="descricaoequip" msprop:Generator_ColumnVarNameInTable="columndescricaoequip" msprop:Generator_ColumnPropNameInRow="descricaoequip" msprop:Generator_ColumnPropNameInTable="descricaoequipColumn" msprop:Generator_UserColumnName="descricaoequip" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="serie" msprop:Generator_ColumnVarNameInTable="columnserie" msprop:Generator_ColumnPropNameInRow="serie" msprop:Generator_ColumnPropNameInTable="serieColumn" msprop:Generator_UserColumnName="serie" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Localizacao" msprop:Generator_ColumnVarNameInTable="columnLocalizacao" msprop:Generator_ColumnPropNameInRow="Localizacao" msprop:Generator_ColumnPropNameInTable="LocalizacaoColumn" msprop:Generator_UserColumnName="Localizacao" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Telefoneloja" msprop:Generator_ColumnVarNameInTable="columnTelefoneloja" msprop:Generator_ColumnPropNameInRow="Telefoneloja" msprop:Generator_ColumnPropNameInTable="TelefonelojaColumn" msprop:Generator_UserColumnName="Telefoneloja" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tiporeparacao" msprop:Generator_ColumnVarNameInTable="columntiporeparacao" msprop:Generator_ColumnPropNameInRow="tiporeparacao" msprop:Generator_ColumnPropNameInTable="tiporeparacaoColumn" msprop:Generator_UserColumnName="tiporeparacao" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="acessorios" msprop:Generator_ColumnVarNameInTable="columnacessorios" msprop:Generator_ColumnPropNameInRow="acessorios" msprop:Generator_ColumnPropNameInTable="acessoriosColumn" msprop:Generator_UserColumnName="acessorios" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

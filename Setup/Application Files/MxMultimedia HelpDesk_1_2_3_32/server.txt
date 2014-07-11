@@ -1,0 +1,4 @@
+80.172.235.100
+mxmultim_hduser
+@12345
+mxmultim_HelpDesk
